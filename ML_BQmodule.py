@@ -53,7 +53,7 @@ def viev2(data1):
   for ax in plt.gcf().get_axes():
       ax.set_xlabel('Значение')
       ax.set_ylabel('Частота')
-  # отрегулировать макета для предотвращения наложения подписей
+  # отрегулировать макет для предотвращения наложения подписей
   plt.tight_layout()
   # показать график
   plt.show()
@@ -66,7 +66,7 @@ def clean_data(data):
     def label(Quality):
         if Quality == "Good":
             return 0
-        if Quality == "Dad":
+        if Quality == "Bad":
             return 1
         return None
 
